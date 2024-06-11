@@ -116,3 +116,23 @@
   }
 //   console.log(son(22, 23, 34));
 }
+{
+    // 13 masala
+    function son(a, b, c){
+        if(b < a && b>c){
+            return ` ortasidagi: ${b}`
+        }
+    }
+    // console.log(son(6, 4, 3));
+}
+{
+    // 14 masala
+    function son(a, b, c){
+        if(a > b && b < c){
+            return `kichik: ${a}`
+        }else{
+            return `kata: ${b} `
+        }
+        }
+    // console.log(son(4, 3, 7));
+}
