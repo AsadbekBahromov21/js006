@@ -1,0 +1,80 @@
+.maslo{
+    margin-bottom: 100px;
+    &__wrapper{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-bottom: 70px;
+        button{
+            padding: 11.5px 99.5px;
+            border: 1px solid #F4E5E2;
+            background: transparent;
+            &:hover{
+                cursor: pointer;
+                border: 1px solid #E11C43
+                ;
+            }
+        }
+    }
+    &__text{
+        margin-bottom: 50px;
+        p{
+            max-width: 555px;
+            font-size: 15px;
+            font-weight: 400;
+            color: #333333;
+        }
+    }
+    &__content{
+        display: flex;
+       gap: 150px;
+       margin-bottom: 50px;
+       p{
+        font-size: 14px;
+        color: #333333;
+       }
+    }
+    &__theme{
+        display: flex;
+        gap: 150px;
+    }
+    &__collection{
+        b{
+            font-size: 17px;
+            color: #333333;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+    }
+}
+
+@media (max-width:900px) {
+    .maslo{
+        &__wrapper{
+            display: flex;
+            flex-wrap: wrap;
+            // gap: 30px;
+
+        }
+    }
+    
+}
+@media (max-width:650px) {
+    .maslo{
+        &__content{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        &__theme{
+            display: flex;
+            gap: 15px;
+            flex-direction: column;
+        }
+       
+    }
+    
+}

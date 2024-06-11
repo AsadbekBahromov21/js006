@@ -1,0 +1,34 @@
+.section{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // border: 1px solid red;
+    background: #F5F5F5    ;
+    margin-bottom: 40px;
+    &__wrapper{
+        display: flex;
+        gap: 60px;
+        overflow-x: auto;
+    }
+    &__content{
+        width: calc(11.1% - 7.5px );
+        p{
+            font-size: 12px;
+            font-weight: 400;
+            color: #333333;
+        }
+    }
+}
+
+@media (max-width:500px) {
+    .section{
+        &__content{
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+    
+}

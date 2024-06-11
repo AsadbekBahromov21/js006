@@ -1,0 +1,39 @@
+.footer{
+    padding-top: 30px;
+    width: 100%;
+    background: #F7EEEC;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__box{
+        display: flex;
+        gap: 123px;
+    }
+    &__item{
+        font-size: 14px;
+        line-height: 2;
+    }
+    &__icon{
+        img{
+            width: 24px;
+            height: 24px;
+        }
+    }
+    &__logo{
+        p{
+            font-size: 10px;
+            margin-top: 15px;
+        }
+    }
+}
+@media (max-width:790px) {
+    .footer{
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+    
+}
